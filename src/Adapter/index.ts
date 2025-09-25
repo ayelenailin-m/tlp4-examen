@@ -20,7 +20,6 @@ export default function DemoAdapter() {
     }
 
     public agregarEquipo(nombre: string, tipo: string, estado: string): void {
-      // Solo se guarda el nombre, porque InventarioViejo solo maneja nombre
       this.gateway.addItem(nombre);
     }
 

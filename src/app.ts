@@ -1,10 +1,13 @@
 import DemoObserver from "./Observer";
 import DemoAdapter from "./Adapter/index";
 import DemoSingleton from "./singleton";
-
-console.log("\n======= Observer =======\n");
+import DemoFactory from "./factory";
+let rayita = "=================";
+console.log(rayita, "Observer", rayita);
 DemoObserver();
-console.log("\n======= Adapter =======\n");
+console.log(rayita, "Adapter", rayita);
 DemoAdapter();
-console.log("\n======= Singleton =======\n");
+console.log(rayita, "Singleton", rayita);
 DemoSingleton();
+console.log(rayita, "Factory", rayita);
+DemoFactory();
